@@ -1,0 +1,21 @@
+.grid-container {
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-right: 40px;
+  border: 5px solid black;
+  display: inline-grid;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  height: 600px;
+  width: 600px;
+  max-width: 960px;
+}
+
+.square {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.button {
+  border: none;
+}
